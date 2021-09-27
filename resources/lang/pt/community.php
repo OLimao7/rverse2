@@ -6,7 +6,7 @@
 return [
     'index' => [
         'header' => [
-            'desc' => 'Confira as comunidades em busca de jogos que você joga ou que está curioso!',
+            'desc' => 'Confira as comunidades para encontrar jogos que você joga ou que deseja conhecer!',
             'title' => 'Comunidades',
         ],
         'favorites' => 'Comunidades Favoritas',
@@ -17,7 +17,7 @@ return [
         'communities' => [
             'filter' => [
                 'name' => 'Filtro',
-                'select' => 'Selecione a Opção Abaixo.',
+                'select' => 'Por favor selecione uma opção.',
                 'options' => [
                     'all' => 'Todos os Softwares',
                     'games' => ':Jogos de Consoles',
@@ -35,11 +35,11 @@ return [
                 'switch-wiiu' => 'Jogos de Switch・Jogos de Wii U',
                 'wii' => 'Jogos de Wii',
                 'ds' => 'Jogos de DS',
-                'wii-ds' => 'Wii Games・Jogos de DS Games',
+                'wii-ds' => 'Wii Games・Jogos de DS',
                 'special' => 'Comunidade Especial',
             ],
-            'empty' => 'Não Existe Comunidades nesta Categoria.',
-            'more' => 'Mostrar Mais.',
+            'empty' => 'Não existem comunidades nesta categoria.',
+            'more' => 'Mostrar mais',
         ],
         'footer' => [
             'console' => ':Comunidades de Consoles',
@@ -49,7 +49,7 @@ return [
     'listing' => [
         'filter' => [
             'name' => 'Filtro',
-            'select' => 'Selecione a Opção Abaixo.',
+            'select' => 'Por favor selecione uma opção.',
             'options' => [
                 'all' => 'Todos os Softwares',
                 'games' => ':Jogos de Consoles',
@@ -68,7 +68,7 @@ return [
                 'ds' => 'Jogos de DS',
                 'wii-ds' => 'Jogos de Wii・Jogos de DS',
             ],
-            'empty' => 'Não Existe Comunidades nesta Categoria.',
+            'empty' => 'Não existem comunidades nesta categoria.',
         ],
     ],
 
@@ -83,5 +83,11 @@ return [
             'memo' => 'Postagens Salvas',
             'next' => 'Próximo',
         ],
+    ],
+
+    'favorites' => [
+        'favorites_label' => 'Favoritos',
+        'software_used' => 'Usados recentemente',
+        
     ],
 ];
